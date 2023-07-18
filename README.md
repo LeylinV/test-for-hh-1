@@ -1,4 +1,4 @@
-# tests-hh
+# test-hh
 
 ## Project setup
 ```
