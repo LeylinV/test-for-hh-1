@@ -31,7 +31,7 @@ export default {
                     id: 1,
                     name: 'List 1',
                     selectAll: false,
-                    isIndeterminate: false,
+                    isIndeterminate: true,
                     collapsed: false,
                     items: [
                         { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: true },
@@ -102,8 +102,6 @@ export default {
         toggleListCollapse(list) {
             list.collapsed = !list.collapsed;
         },
-    },
-    computed: {
 
     },
 };

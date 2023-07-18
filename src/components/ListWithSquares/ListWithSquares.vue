@@ -5,7 +5,13 @@
             <button @click="this.isSorted = !this.isSorted">{{this.isSorted ? 'Перемешать' : 'Отсортировать'}}</button>
         </div>
         <div v-for="groups in shuffledSquaresList" :key="groups[0]" class="group">
-            <div v-for="(square, index) in groups" :key="index" class="square" :style="{ backgroundColor: square }"/>
+            <div
+                v-for="(square, index) in groups"
+                :key="index"
+                class="square"
+                :style="{ backgroundColor: square }"
+                @click="decreaseQuantity(square)"
+            />
         </div>
     </div>
 </template>
@@ -22,6 +28,14 @@ export default {
     data(){
         return{
             isSorted: false,
+        }
+    },
+    methods:{
+        decreaseQuantity(square) {
+            const item = this.list.items.find(item => item.color === square);
+            if (item.quantity > 0){
+                item.quantity--
+            }
         }
     },
     computed: {
@@ -80,5 +94,6 @@ export default {
     width: 15px;
     height: 15px;
     margin: 1px;
+    cursor: pointer;
 }
 </style>
