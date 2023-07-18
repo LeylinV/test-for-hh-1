@@ -58,6 +58,7 @@ export default {
 .list{
     border: 1px solid #000;
     padding: 10px 15px;
+    margin-bottom: 10px;
 }
 .list-header{
     display: flex;
