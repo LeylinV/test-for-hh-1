@@ -34,10 +34,13 @@ export default {
                     isIndeterminate: false,
                     collapsed: false,
                     items: [
-                        { id: 1, name: 'Item 1', quantity: 2, color: '#ff0000', selected: false },
-                        { id: 2, name: 'Item 2', quantity: 3, color: '#00ff00', selected: false },
-                        { id: 3, name: 'Item 3', quantity: 1, color: '#0000ff', selected: false },
-                        { id: 4, name: 'Item 4', quantity: 5, color: '#ff23e2', selected: false },
+                        { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: true },
+                        { id: 2, name: 'Item 2', quantity: 35, color: '#00FF00', selected: true },
+                        { id: 3, name: 'Item 3', quantity: 12, color: '#0000FF', selected: true },
+                        { id: 4, name: 'Item 4', quantity: 8, color: '#FFFF00', selected: false },
+                        { id: 5, name: 'Item 5', quantity: 9, color: '#FF00FF', selected: false },
+                        { id: 6, name: 'Item 6', quantity: 15, color: '#00FFFF', selected: false },
+                        { id: 7, name: 'Item 7', quantity: 17, color: '#FFA500', selected: false },
                     ]
                 },
                 {
@@ -47,9 +50,10 @@ export default {
                     isIndeterminate: false,
                     collapsed: false,
                     items: [
-                        { id: 1, name: 'Item 1', quantity: 2, color: '#ff0000', selected: false },
-                        { id: 2, name: 'Item 2', quantity: 3, color: '#00ff00', selected: false },
-                        { id: 3, name: 'Item 3', quantity: 1, color: '#0000ff', selected: false },
+                        { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: false },
+                        { id: 2, name: 'Item 2', quantity: 35, color: '#00FF00', selected: false },
+                        { id: 3, name: 'Item 3', quantity: 12, color: '#0000FF', selected: false },
+                        { id: 4, name: 'Item 4', quantity: 8, color: '#FFFF00', selected: false },
                     ]
                 },
                 {
@@ -59,9 +63,36 @@ export default {
                     isIndeterminate: false,
                     collapsed: false,
                     items: [
-                        { id: 1, name: 'Item 1', quantity: 2, color: '#ff0000', selected: false },
-                        { id: 2, name: 'Item 2', quantity: 3, color: '#00ff00', selected: false },
-                        { id: 3, name: 'Item 3', quantity: 1, color: '#0000ff', selected: false },
+                        { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: false },
+                        { id: 2, name: 'Item 2', quantity: 35, color: '#00FF00', selected: false },
+                        { id: 3, name: 'Item 3', quantity: 12, color: '#0000FF', selected: false },
+                        { id: 4, name: 'Item 4', quantity: 8, color: '#FFFF00', selected: false },
+                    ]
+                },
+                {
+                    id: 4,
+                    name: 'List 4',
+                    selectAll: false,
+                    isIndeterminate: false,
+                    collapsed: false,
+                    items: [
+                        { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: false },
+                        { id: 2, name: 'Item 2', quantity: 35, color: '#00FF00', selected: false },
+                        { id: 3, name: 'Item 3', quantity: 12, color: '#0000FF', selected: false },
+                        { id: 4, name: 'Item 4', quantity: 8, color: '#FFFF00', selected: false },
+                    ]
+                },
+                {
+                    id: 5,
+                    name: 'List 5',
+                    selectAll: false,
+                    isIndeterminate: false,
+                    collapsed: false,
+                    items: [
+                        { id: 1, name: 'Item 1', quantity: 21, color: '#FF0000', selected: false },
+                        { id: 2, name: 'Item 2', quantity: 35, color: '#00FF00', selected: false },
+                        { id: 3, name: 'Item 3', quantity: 12, color: '#0000FF', selected: false },
+                        { id: 4, name: 'Item 4', quantity: 8, color: '#FFFF00', selected: false },
                     ]
                 },
             ]
